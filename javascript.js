@@ -5,7 +5,7 @@
 
 var moment = require('moment');
 const chalk = require('chalk');
-
+//
 // console.log(moment().format('dddd'));   // gives current day
 // console.log(moment().format('hh'));     // gives hour in standard time
 // console.log(moment().format('dd'));     // not this
