@@ -7,11 +7,11 @@ var moment = require('moment');
 const chalk = require('chalk');
 
 // console.log(moment().format('dddd'));   // gives current day
-// console.log(moment().format('hh'));     // gives hour
+// console.log(moment().format('hh'));     // gives hour in standard time
 // console.log(moment().format('dd'));     // not this
 
 var day = moment().format('dddd');      // sets day to variable
-var hourNow = moment().format('H');    // sets hour to variable
+var hourNow = moment().format('H');    // sets hour to variable in 24 hour
 var greeting = "";
 
 if (hourNow > 17 ) {
